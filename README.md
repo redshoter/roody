@@ -1,2 +1,3 @@
-This is mi own bot, if you need help you can talk me to my discord: redshoter#0738 or you can go on the roody discord and there make me your question: 
+Este es Roody, si tienes alguna pregunta sobre el, o algo recomendacion, algo que añadir o algo asi, me lo puedes poner por el discord de Roody,
+Para que los comandos de Roody te funcionen tendras que crear 2 repl.it distintos, uno con el nombre de tu bot y otro con el nombre de tu bot y 2 algo asi: (primer repl.it Roody segundo repl.it Roody 2) Despues de hacer eso, en el primer repl.it que has creado tendras que poner todos los comandos que no tienen un 2 detras, EJ:(index.js) (como ya es obvio, si copias el index.js, en tu repl.it tendras que crear un apartado que se llame index.js) cuando metas todos los archivos del primer repl.it tendras que poner el token y el codigo api etc...
 https://discord.gg/YyyG9nKMwj
