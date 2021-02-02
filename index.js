@@ -42,6 +42,21 @@ client.on("message", msg => {
 });
 
 
+const MusicBot = require('discord-music-system-es'); // requerimos el paquete de música
+
+const bot = new MusicBot({
+    botPrefix: '=', // Ejemplo: !
+    ytApiKey: 'AIzaSyDHsSNuTyniRB1ThcuMz2c17bZUJbdTUvw', // Video de como obtener tu API KEY: https://www.youtube.com/watch?v=VqML5F8hcRQ
+    botClient: client //Tu cliente de Discord. Aquí estamos usando discord.js, por lo que es Discord.Client ()
+});
+
+client.on('message', message => { // Cuando un el bot recive un mensaje
+    if(message.content.startsWith(bot.prefix)){ // Si el mensaje empieza con su prefijo
+        bot.onMessage(message); // discord-music-system lee si es un comando de música o no
+    };
+});
+
+client.login('ODA1MTg1OTE3MjA2NzkwMTU0.YBXN0g.8c8yNeLJNi9wnoeVkejI06XROQI'); // Aqui ponemos el token de nuestro bot, obtenlo creando una aplicación en https://discord.com/developers/applications/
 
 
 client.login(process.env.TOKEN);
