@@ -56,7 +56,7 @@ client.on('message', message => { // Cuando un el bot recive un mensaje
     };
 });
 
-client.login('ODA1MTg1OTE3MjA2NzkwMTU0.YBXN0g.8c8yNeLJNi9wnoeVkejI06XROQI'); // Aqui ponemos el token de nuestro bot, obtenlo creando una aplicación en https://discord.com/developers/applications/
+client.login('TOKEN'); // Aqui ponemos el token de nuestro bot, obtenlo creando una aplicación en https://discord.com/developers/applications/
 
 
 client.login(process.env.TOKEN);
